@@ -15,7 +15,7 @@ require("jquery leaflet esriLeaflet baseLayer iScroll vertialScroll".split(" "),
     L.esri = esriLeaflet;
     L.Icon.Default.imagePath = "asset/images";
 
-    var geo = getJsonData("asset/config/geojson.json","POST");
+    var geo = getJsonData("asset/config/data.json","POST");
 
     map = baseLayer.init(geo);
 
